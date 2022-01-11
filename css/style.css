@@ -1,0 +1,85 @@
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background-color: black;
+    background-image: url(../img/back-galaxy-planets.jpg);
+}
+
+#main-play-area {
+    background-color: black;
+    background-image: url(../img/back-galaxy-planets.jpg);
+    height: 600px;
+    width: 600px;
+    padding: 0px 50px;
+    border-radius: 20px;
+}
+
+.game-instructions {
+    position: relative;
+    color: white;
+    left: 7rem;
+    top: 0px;
+    text-align: left;
+}
+.small-craft{
+    font-size: 24px;
+    color: orangered;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.start-button h1 {
+    position: relative;
+    color: white;
+    top: 9rem;
+    left: 15rem;
+    cursor: pointer;
+}
+.start-button h1:hover{
+    color: orangered;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px rgb(104, 3, 3), 0 0 25px rgb(243, 243, 245), 0 0 5px rgb(237, 237, 243);
+} 
+.info{
+    text-align: center;
+    margin-top: 200px;
+    font-size: 11px;
+    color: white;
+    clear: both;
+}
+
+.player-shooter {
+    position: relative;
+    height: 60px;
+    width: 70px;
+    left: 20px;
+    top: 250px
+}
+
+.laser {
+    position: relative;
+    width: 40px;
+    height: 30px;
+}
+
+.alien {
+    height: 60px;
+    width: 70px;
+    position: relative;
+}
+
+.alien-transition {
+    opacity: 1;
+    transition: opacity 1.5s ease-in-out;
+}
+
+.dead-alien {
+    height: 60px;
+    width: 70px;
+    position: relative;
+    opacity: 0;
+}
