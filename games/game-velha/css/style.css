@@ -1,0 +1,64 @@
+/* RESET CSS -------------------------------------------> */
+*{
+    box-sizing: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    color: white;
+}
+a:link {text-decoration: none;}
+a:visited {text-decoration: none;}
+a:hover {text-decoration: underline;}
+a:active {text-decoration: underline; }
+/* RESET CSS -------------------------------------------> */
+body {
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.quadrado {
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    background: #eee;
+    display: inline-block;
+    padding: 30px;
+    font-size: 50px;
+    margin: 5px;
+    cursor: pointer;
+    color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+}
+.flex-box{
+    display: flex;
+    justify-content: center;  
+}
+.flex-box > div{
+  width: 800px;
+  text-align: center;
+  line-height: 75px;
+  color: white;
+}
+.jogador, .vencedor {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+    border:none;
+    transition: 1s;
+}
+button:hover{
+    background-color: orangered;
+    color: white;
+    text-transform: uppercase;
+}
