@@ -1,0 +1,234 @@
+/* Boa Vista-Roraima
+// by Dalmo Mendes (dalmosilvamendes@gmail.com)
+// ::. Meus Contatos .::
+// https://ceproirr.com.br
+// https://www.ceproirr.com.br/webagency
+// https://www.ceproirr.com.br/suporte-tec
+// https://facebook.com/ceproirr
+// https://instagram.com/ceproirr
+// https://twitter.com/ceproirr
+// https://www.youtube.com/channel/UC9egIn_Xkg2KFD_55mi_r8w
+*/
+:root{ /* Declaração de Váriaveis */
+    --laranja:#df711df7;
+    --preto:rgb(12, 11, 11);
+    --branca:rgb(252, 249, 249);
+    --branca-nav_a:rgb(170, 170, 170);
+    --shadow: text-shadow: 2px 2px 4px #000000;
+    --back-preto:rgb(1,0,9);
+    --back-linear: linear-gradient(90deg, rgba(1,0,9,1) 0%, rgba(9,73,121,1) 35%, rgba(12,13,13,1) 100%);
+    --font-titulo:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    --banner-principal: linear-gradient(rgba(0, 0, 0, .50),rgba(0, 0, 0, .50)100%), url('../img/capa-principal.jpg');
+}
+/* RESET DE ELEMENTOS */
+/* Isso será padronizado em todos os navegadores */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+/*ELEMENTOS BASE  - CORPO DA PÁGINA */
+body{
+    background: var(--back-preto);
+    background: var(--back-linear);
+    font-family: sans-serif;
+    color: var(--branca);
+}
+
+/* INÍCIO ELEMENTOS DO INÍCIO DA PÁGINA COMO: ----------------------------------------
+Logo, menu nav e botões de acesso rápido */
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* Logo SpaceX - Top da Página */
+header .logo{
+    color: var(--laranja);
+    font-family: 'Arial Black';
+    font-size: 25px;
+    margin-left: 5px;
+
+}
+/* Logo SpaceX - Top da Página: logo:hover 
+header .logo:hover{
+    transition-duration: 1s;
+    text-shadow: var(--shadow);
+}*/
+/* Links do top, Nav a e a:hover */
+header nav a {
+    text-decoration: none;
+    color: var(--branca-nav_a);
+    margin-right: 10px;
+}
+/* Nav a:hover */
+header nav a:hover{
+    color: var(--branca);
+    background: var(--laranja);
+    padding: 5px;
+    border-radius: 3px;
+}
+
+/* Aplica margin de 20px em todos elementos do container princiapl */
+.container{
+    margin:0px;
+}
+.left_logo{
+    padding-left: 20px;
+    margin: 10px 0px;
+}
+.left_descricao{
+    margin:20px;
+}
+/* Input de Busca */
+input[type=search]{
+    width: 20px;
+    padding: 4px;
+    color: var(--branca-nav_a);
+    border: none;
+    border-radius: 5%;
+    -webkit-transition: width .35s ease-in-out;
+    transition: width .35s ease-in-out;
+}
+/* Div do Input de Busca */
+.busca_box{
+    background: var(--branca);
+    padding: 10px;
+    border-radius: 4px;
+    color: var(--laranja);
+}
+/* Input de Busca Search focus  */
+input[type=search]:focus{
+    border: 1px solid var(--laranja);
+    outline: 0;
+    width: 100px;
+}
+/* FIM ELEMENTOS DO INÍCIO DA PÁGINA COMO: ---------------------------------------- */
+
+/* BANNER DO FILME PRINCIPAL  ------------------------------------------------------*/
+.banner-principal{
+    font-size: 16px;
+    background: var(--banner-principal);
+    height: 400px;
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.banner-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+/* INÍCIO - Carousel do Top  ---------------------------------------------------------- */
+.carousel-min{
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 4%;
+    width: 100%;
+} 
+.carousel-min .item_top {
+    width: 150px;
+    height: 150px;
+    border-radius: 5%;
+    margin:10px;
+    background-color: var(--laranja); 
+    display: block;
+    opacity: 0.4;
+}
+.carousel-min .item_top:hover{
+    border: 4px solid var(--branca); 
+    box-shadow: var(--shadow);
+    cursor: pointer;
+    width: 200px;
+    height: 320px;
+    border-radius: 3%;
+    opacity: 1;
+}
+/* FIM - Carousel do Top  ---------------------------------------------------------- */
+
+/* INFORMAÇÕES APRESENTADOS SOBRE O BANNER PRINCIPAL ---------------------------------*/
+.banner-principal .titulo{
+    font-size: 40px;
+    margin-top: 5%;
+    font-family: var(--font-titulo);
+}
+
+.botao{
+    background-color: rgba(0, 0, 0, .50);
+    border:none;
+    color: var(--branca);
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    transition-duration: 1.5s;
+    border-radius: 30px;
+}
+.botao:hover{
+    background: var(--laranja);
+    color: var(--branca);
+}
+.botao i {
+    margin-right: 5px;
+}
+
+.banner-principal .container .p{
+    width: 70%;
+}
+
+.box-caps-video{
+   height: 100%;
+   width: 100%;
+   border-radius: 10px;
+   display: block; 
+}
+
+.carousel-banner{
+    margin-top: 10px;
+}
+.left_right5px{
+    left: 0px;
+}
+/* INÍCIO CATEGORIAS -------------------------------------------------------*/
+/* São os títulos das informaçõs de cada categoria */
+.categorias{
+    margin: 20px;
+    padding: 5px;
+    width: 300px;
+}
+.categorias:hover{
+    border-bottom: 3px solid var(--laranja);
+    transition-duration: 1s;
+    width: 95%;
+}
+/* FIM CATEGORIAS -------------------------------------------------------*/
+
+/* INÍCIO DO FOOTER ------------------------------------------------------*/
+/* É o rodapé da página, possui as seguintes dados(Inormações gerais):
+Categorias, planos, contatos e Sobre nós.
+*/
+footer > .container{
+    display: flex;
+    justify-content:space-around;
+    width: 100%;
+    /*opacity: 0.2;*/
+} 
+
+footer .container_footer{
+    margin-bottom:5px;
+    text-decoration: none;
+}
+footer .container_footer ul li{
+    list-style-type: none;
+    margin: 5px;
+}
+
+/* FIM DO FOOTER --------------------------------------------------------*/

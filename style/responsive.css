@@ -1,0 +1,44 @@
+/* Boa Vista-Roraima
+// by Dalmo Mendes (dalmosilvamendes@gmail.com)
+// ::. Meus Contatos .::
+// https://ceproirr.com.br
+// https://www.ceproirr.com.br/webagency
+// https://www.ceproirr.com.br/suporte-tec
+// https://facebook.com/ceproirr
+// https://instagram.com/ceproirr
+// https://twitter.com/ceproirr
+// https://www.youtube.com/channel/UC9egIn_Xkg2KFD_55mi_r8w
+*/    
+/* CSS Responsividade */
+
+@media screen and (max-width:700px){
+    header .container{
+    display: flex;
+    flex-direction: column; /*Quebra em colunas */
+    }
+    footer > .container{
+        display: flex;
+        flex-direction: column; /*Quebra em colunas */
+    } 
+   
+    .botao{
+        margin-top: 5px;
+        width: 300px;
+    }
+
+}
+
+@media screen and (min-width:300px){
+    .container_footer ul li{
+        text-align: center !important;
+        font-size: 16px;
+    } 
+
+}
+
+@media screen and (min-width:1000px){
+    .descricao{
+        width: 50%;
+    }
+}
+
