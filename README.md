@@ -3,31 +3,31 @@ Fala Devs! Tudo bem com vocês? Espero que sim. Criei este projeto para comparti
 
 <h3>Projeto: Jogo da memória - Street FighterV</h3>
 <a href="https://dalmomendes.github.io/games/game-memoria/index.html" target="_black">Jogar Agora - Street Fighter V</a>
-<a href="games/game-memoria/" >Abrir Repositório</a>
+<a href="https://github.com/DalmoMendes/GameMemoria" >Abrir Repositório</a>
 
 <h3>Projeto: Jogo da Velha Personalizado</h3>
 <a href="https://dalmomendes.github.io/game/game-velha/index.html" target="_black">Jogar Agora - Jogo da Velha </a>
-<a href="game/game-velha/index.html" >Abrir Repositório </a>
+<a href="https://github.com/DalmoMendes/game-velha" >Abrir Repositório </a>
 
 <h3>Projeto: Genius Sonoro</h3>
 <a href="https://dalmomendes.github.io/game/genius-sonoro/index.html" target="_black">Jogar Agora - Genius Sonoro </a>
-<a href="game/genius-sonoro/" >Abrir Repositório</a>
+<a href="https://github.com/DalmoMendes/GeniusPlaySonoro">Abrir Repositório</a>
 
 <h3>Projeto: Macuxi battle 2D</h3>
 <a href="https://dalmomendes.github.io/game/macuxi-battle2d/index.html" target="_black">Jogar Agora - Macuxi battle 2D </a>
-<a href="game/macuxi-battle2d/" >Abrir Repositório </a>
+<a href="https://github.com/DalmoMendes/macuxi-battle2d" >Abrir Repositório </a>
 
 <h3>Projeto: Resgate</h3>
 <a href="https://dalmomendes.github.io/game/resgate/index.html" target="_black">Jogar Agora - Resgate </a>
-<a href="game/resgate/index.html" >Abrir Repositório </a>
+<a href="https://github.com/DalmoMendes/GamePlayResgate" >Abrir Repositório </a>
 
 <h3>Projeto: Small Craft Space</h3>
 <a href="https://dalmomendes.github.io/game/small-craft-space/index.html" target="_black">Jogar Agora - Small Craft Space</a>
-<a href="game/small-craft-space/" >Abrir Repositório</a>
+<a href="https://github.com/DalmoMendes/small-craft-space" >Abrir Repositório</a>
 
 <h3>Projeto: Snake Play</h3>
 <a href="https://dalmomendes.github.io/game/snakepay/index.html" target="_black">Jogar Agora - Snake Play</a>
-<a href="game/snakepay/">Abrir Repositório</a>
+<a href="https://github.com/DalmoMendes/SnakePlay">Abrir Repositório</a>
 
 # :rocket: ceproirr 
 <p>by Dalmo Mendes - dalmosilvamendens@gmail.com</p>
