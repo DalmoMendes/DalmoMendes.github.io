@@ -213,6 +213,7 @@ Categorias, planos, contatos e Sobre nós.
 footer > .container{
     display: flex;
     justify-content:space-around;
+    flex-direction: column;
     width: 100%;
     /*opacity: 0.2;*/
 } 
